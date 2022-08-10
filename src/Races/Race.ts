@@ -13,8 +13,7 @@ export default abstract class Race {
   }
 
   static createdRacesInstances(): number {
-    const error = new Error('Not implemented');
-    throw error;
+    throw new Error('Not implemented');
   }
 
   abstract get maxLifePoints(): number;
