@@ -1,7 +1,7 @@
 type EnergyType = 'mana' | 'stamina';
 
 interface Energy {
-  type: EnergyType,
+  readonly type_: EnergyType,
   amount: number,
 }
 
